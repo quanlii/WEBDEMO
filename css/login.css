@@ -1,0 +1,161 @@
+
+.menu_top {
+  background: rgba(40, 124, 228, 0.8);
+  margin: 0px;
+  font-size: 48px;
+  color: white;
+  text-indent: 20px;
+  line-height: 86px;
+  height: 80px;
+  width: 100%;
+} 
+body{
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(../images/Nen1.webp) no-repeat;
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(40, 124, 228);
+} 
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid rgb(227, 78, 64);
+  margin-bottom: 50px;
+  padding:  13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid rgb(227, 78, 64);
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  text-indent: 24px;
+  color: rgb(227, 78, 64);
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0px 20px;
+  padding: 5px 14px 5px 0px;
+}
+#username{
+  background:  url(../images/userIcon.png) no-repeat 4px;
+}
+#password{
+  background:  url(../images/lockIcon.png) no-repeat 4px;
+}
+.btn{
+  width: 100%;
+  background: none;
+  background-color: rgb(40, 124, 228);
+  border: 1px solid rgb(227, 78, 64);
+  border-radius: 10px;
+  color: rgb(243, 238, 247);
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.btn:hover{
+  background-color: rgb(227, 78, 64);
+}
+#username_error, #pass_error, #error {
+  margin-top: 5px;
+  width: 260px;
+  font-size: 14px;
+  color: rgb(227, 78, 64);
+  background-color: rgba(255,0,0,0.1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid #EF9A9A;
+  display: none;
+
+}
+
+#menu_top {
+  background: rgb(12, 74, 150);
+  height: 30px;
+  margin-left: 0px;
+}
+#menu_top ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu_top ul li {
+  list-style: none;
+  float: left;
+}
+
+#menu_top ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  height: 10px;
+  line-height: 30px;
+  color: #FFF;
+  padding: 0px 20px 20px 20px;
+  border-right: 1px solid #ccc;
+  
+}
+#menu_top ul>li>ul{
+  display: none;
+ 
+}
+#menu_top ul li ul li a{
+  width: 110px;
+  background: rgb(12, 74, 150);
+  border: 1px solid rgb(227, 78, 64);
+  border-radius: 5px;
+  position: relative;
+}
+#menu_top ul>li:hover ul{
+  display: block;
+}
+#menu_top ul>li:hover >a{
+  background-color: rgb(227, 78, 64);
+  border-radius: 5px;
+}
+#menu_top #btLogout{
+  font-size: 14px;
+  padding: 4px 5px 4px 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(227, 78, 64);
+  float: right ;
+}
+
+#tablebn tbody{
+  left: 20px;
+}
+#tablebn table, th, td {
+  
+  
+  padding: 5px;
+  width: 150px;
+  background-color: #FFF;
+  text-align: left;
+}
+#tablebn table, th {
+  height: 30px;
+  font-size: 16px;
+  color: rgb(12, 74, 150);
+}
+#tablebn table, td {
+  font-size: 14px;
+  color: black;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login.css">  
+  
+</head>
+<body>
+  <div class="menu_top">
+    <b>Web</b>
+  </div>
+
+    <form class="login-box" action="mainMenu.html" method="get" name="form" onsubmit="return validated()" >
+
+      <h1>Login</h1>
+  
+      <div class="textbox">
+        <input id="username" autocomplete="off" type="text" placeholder="Username" name="username" value="">
+      </div>
+      <div id="username_error">Please fill up your username</div>
+
+      <div class="textbox">
+        <input id="password" autocomplete="off" type="password" placeholder="Password" name="password" value="">
+      </div>
+      <div id="pass_error">Please fill up your password</div>
+      <div id="error">Username or Password is incorrect</div>
+      
+      <button type="submit" class="btn" onclick="check()">Login</button>
+    </form>  
+    <script src="js/login.js"></script>
+</body>
+</html>
